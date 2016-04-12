@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/rogpeppe/godef/go/scanner"
-	"github.com/rogpeppe/godef/go/token"
+	"github.com/saml/godef/go/scanner"
+	"github.com/saml/godef/go/token"
 )
 
 type pkgBuilder struct {

@@ -14,9 +14,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/rogpeppe/godef/go/ast"
-	"github.com/rogpeppe/godef/go/scanner"
-	"github.com/rogpeppe/godef/go/token"
+	"github.com/saml/godef/go/ast"
+	"github.com/saml/godef/go/scanner"
+	"github.com/saml/godef/go/token"
 )
 
 var importPathPat = regexp.MustCompile(`((?:\p{L}|_)(?:\p{L}|_|\p{Nd})*)(?:\.v\d+(-unstable)?)?$`)
